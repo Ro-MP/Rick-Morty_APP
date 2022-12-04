@@ -36,12 +36,12 @@ class CharacterAdapter(private val characters : List<Character>, private val con
     // Rellena los componentes del item_character.xml
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.apply {
-            Picasso.get().load(characters.get(position).image).into(this.ivCharacterImage)
-            this.tvCharacterName.text = characters.get(position).name
-            this.tvCharacterStatus.text = characters.get(position).status
-            this.tvCharacterSpecies.text = characters.get(position).species
-            this.tvCharacterGender.text = characters.get(position).gender
-            this.tvCharacterLocation.text = characters.get(position).location.name
+            //Picasso.get().load(characters.get(position).image).into(this.ivCharacterImage)
+            //this.tvCharacterName.text = characters.get(position).name
+            //this.tvCharacterStatus.text = characters.get(position).status
+            //this.tvCharacterSpecies.text = characters.get(position).species
+            //this.tvCharacterGender.text = characters.get(position).gender
+            //this.tvCharacterLocation.text = characters.get(position).location.name
         }
     }
 
